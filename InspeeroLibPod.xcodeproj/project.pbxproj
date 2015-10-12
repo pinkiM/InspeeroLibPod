@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F1C4A51BCBE7E3002DA1EB /* InspeeroLibPod.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 18F1C4A41BCBE7E3002DA1EB /* InspeeroLibPod.h */; };
+		18F1C4A71BCBE7E3002DA1EB /* InspeeroLibPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1C4A61BCBE7E3002DA1EB /* InspeeroLibPod.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18F1C49F1BCBE7E2002DA1EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				18F1C4A51BCBE7E3002DA1EB /* InspeeroLibPod.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18F1C4A11BCBE7E2002DA1EB /* libInspeeroLibPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libInspeeroLibPod.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F1C4A41BCBE7E3002DA1EB /* InspeeroLibPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InspeeroLibPod.h; sourceTree = "<group>"; };
+		18F1C4A61BCBE7E3002DA1EB /* InspeeroLibPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InspeeroLibPod.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F1C49E1BCBE7E2002DA1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F1C4981BCBE7E2002DA1EB = {
+			isa = PBXGroup;
+			children = (
+				18F1C4A31BCBE7E3002DA1EB /* InspeeroLibPod */,
+				18F1C4A21BCBE7E2002DA1EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F1C4A21BCBE7E2002DA1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F1C4A11BCBE7E2002DA1EB /* libInspeeroLibPod.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F1C4A31BCBE7E3002DA1EB /* InspeeroLibPod */ = {
+			isa = PBXGroup;
+			children = (
+				18F1C4A41BCBE7E3002DA1EB /* InspeeroLibPod.h */,
+				18F1C4A61BCBE7E3002DA1EB /* InspeeroLibPod.m */,
+			);
+			path = InspeeroLibPod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F1C4A01BCBE7E2002DA1EB /* InspeeroLibPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F1C4AA1BCBE7E3002DA1EB /* Build configuration list for PBXNativeTarget "InspeeroLibPod" */;
+			buildPhases = (
+				18F1C49D1BCBE7E2002DA1EB /* Sources */,
+				18F1C49E1BCBE7E2002DA1EB /* Frameworks */,
+				18F1C49F1BCBE7E2002DA1EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InspeeroLibPod;
+			productName = InspeeroLibPod;
+			productReference = 18F1C4A11BCBE7E2002DA1EB /* libInspeeroLibPod.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F1C4991BCBE7E2002DA1EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "inspeero technologies";
+				TargetAttributes = {
+					18F1C4A01BCBE7E2002DA1EB = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 18F1C49C1BCBE7E2002DA1EB /* Build configuration list for PBXProject "InspeeroLibPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18F1C4981BCBE7E2002DA1EB;
+			productRefGroup = 18F1C4A21BCBE7E2002DA1EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F1C4A01BCBE7E2002DA1EB /* InspeeroLibPod */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F1C49D1BCBE7E2002DA1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1C4A71BCBE7E3002DA1EB /* InspeeroLibPod.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18F1C4A81BCBE7E3002DA1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F1C4A91BCBE7E3002DA1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F1C4AB1BCBE7E3002DA1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		18F1C4AC1BCBE7E3002DA1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F1C49C1BCBE7E2002DA1EB /* Build configuration list for PBXProject "InspeeroLibPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1C4A81BCBE7E3002DA1EB /* Debug */,
+				18F1C4A91BCBE7E3002DA1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F1C4AA1BCBE7E3002DA1EB /* Build configuration list for PBXNativeTarget "InspeeroLibPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1C4AB1BCBE7E3002DA1EB /* Debug */,
+				18F1C4AC1BCBE7E3002DA1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F1C4991BCBE7E2002DA1EB /* Project object */;
+}
